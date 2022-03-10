@@ -51,7 +51,6 @@ def DFS(graph, length):
                 queue.append([neighbour, node])
             else:
                 if (visited[neighbour][0]*graph[neighbour][node]*visited[node][0]==-1):
-                    print(visited)
                     path1 = []
                     actual = neighbour
                     while(True):
